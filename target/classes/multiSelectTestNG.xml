@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  
+  <parameter name="bName" value="Firefox" />
+    <classes>
+      <class name="com.batch1.tests.MultiSelect_SelectClass_KeyDown"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

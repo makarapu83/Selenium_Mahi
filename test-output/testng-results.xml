@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31351" started-at="2016-07-01T18:18:22Z" finished-at="2016-07-01T18:18:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31351" started-at="2016-07-01T18:18:22Z" finished-at="2016-07-01T18:18:54Z">
+      <class name="com.batch1.tests.ReadExcelFile">
+        <test-method status="PASS" signature="Test(java.lang.String)[pri:0, instance:com.batch1.tests.ReadExcelFile@3aa9e816]" name="Test" is-config="true" duration-ms="12545" started-at="2016-07-01T23:48:22Z" finished-at="2016-07-01T23:48:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="readDP(java.lang.String, java.lang.String)[pri:0, instance:com.batch1.tests.ReadExcelFile@3aa9e816]" name="readDP" duration-ms="9477" started-at="2016-07-01T23:48:36Z" data-provider="dp" finished-at="2016-07-01T23:48:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mahendar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDP -->
+        <test-method status="PASS" signature="readDP(java.lang.String, java.lang.String)[pri:0, instance:com.batch1.tests.ReadExcelFile@3aa9e816]" name="readDP" duration-ms="2757" started-at="2016-07-01T23:48:45Z" data-provider="dp" finished-at="2016-07-01T23:48:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dileep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45677]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDP -->
+        <test-method status="PASS" signature="readDP(java.lang.String, java.lang.String)[pri:0, instance:com.batch1.tests.ReadExcelFile@3aa9e816]" name="readDP" duration-ms="2760" started-at="2016-07-01T23:48:48Z" data-provider="dp" finished-at="2016-07-01T23:48:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Naresh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jbskdf444]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDP -->
+        <test-method status="PASS" signature="readDP(java.lang.String, java.lang.String)[pri:0, instance:com.batch1.tests.ReadExcelFile@3aa9e816]" name="readDP" duration-ms="2867" started-at="2016-07-01T23:48:51Z" data-provider="dp" finished-at="2016-07-01T23:48:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suresh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcdefgh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDP -->
+      </class> <!-- com.batch1.tests.ReadExcelFile -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

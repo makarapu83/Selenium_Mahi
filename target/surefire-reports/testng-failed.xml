@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <parameter name="bName" value="firefox"/>
+  <test name="Test(failed)" preserve-order="true">
+    <parameter name="bName" value="firefox"/>
+    <classes>
+      <class name="com.batch1.tests.DatePicker">
+        <methods>
+          <include name="setup"/>
+          <include name="datepickr"/>
+        </methods>
+      </class> <!-- com.batch1.tests.DatePicker -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
